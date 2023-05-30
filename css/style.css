@@ -150,6 +150,88 @@
     margin-top: 120px;
     align-items: center;
 }  
+.Pmain{
+    background-color:darkslategray;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Pmaps{
+    width: 450px;
+    height: 450px;
+}
+.Psection{
+    width: 50%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS';
+}
+.Psection1{
+    width: 50%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Trebuchet MS';
+}
+.Pimg{
+    margin: 10px;
+}
+h1.localizacao{
+    margin-bottom: 20px;
+    color:white;
+}
+main.acessorios{
+    width: 100%;
+    height: auto;
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pdDestaque{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pd{
+    min-height: 500px ;
+    width: 30%;
+    border: 2px solid #E600CF;
+    border-radius: 20px 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    color: #99008a;
+}
+.pd:hover{
+    transform: scale(1.1);
+}
+#figure{
+    border: 2px solid #99008a;
+    width: 210px;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 20px;
+}
 #tb div{
     height: 100%;
     width: 100%;
